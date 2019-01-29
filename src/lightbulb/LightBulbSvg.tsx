@@ -1,11 +1,11 @@
 import React from 'react'
 
-interface LightbulbSvg {
+export interface ILightbulbSvg {
   fillColor: string;
 }
 
 
-const LightbulbSvg: React.FunctionComponent<LightbulbSvg> = ({ fillColor }) => (
+const LightbulbSvg: React.FunctionComponent<ILightbulbSvg> = ({ fillColor }) => (
   <svg width="56px" height="90px" viewBox="0 0 56 90" version="1.1">
     <defs />
     <g
